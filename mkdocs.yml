@@ -1,19 +1,21 @@
 site_name: Kupia Audit Arsenal
-site_description: Collection of notes from useful videos
+site_description: A comprehensive knowledge hub for Web3 security auditors
 site_author: KupiaSec
 
 theme:
-  name: material  # or your chosen theme
+  name: material
   logo: assets/logo.png
   favicon: assets/favicon.ico
   custom_dir: docs/overrides
   palette:
     primary: indigo
+    accent: indigo
   features:
-    - content.code.copy
-    - header.autohide
-    - navigation.top
-    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
 
 docs_dir: docs
 
@@ -23,8 +25,13 @@ plugins:
       collapse_single_pages: true
 
 nav:
-  - About: index.md
-  - ...
+  - Home: index.md
+  - Audit:
+    - Overview: audit/index.md
+  - DeFi Concepts:
+    - Overview: defi/index.md
+  - Podcast Insights:
+    - Overview: pod
 
 extra:
   social:
@@ -36,4 +43,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - footnotes
 copyright: "All content belongs to respective video owners. This site is for educational purposes only."
