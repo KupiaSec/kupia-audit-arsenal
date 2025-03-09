@@ -101,4 +101,4 @@ The built site will be in the `site/` directory, which you can then deploy to yo
 
 ## License
 
-This repository is only for educational purposes. All the right
+This repository is only for educational purposes. All the rights belong to the origial content owners.
