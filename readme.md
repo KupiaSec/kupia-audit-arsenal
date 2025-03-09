@@ -27,7 +27,7 @@ This repository hosts the Kupia Audit Arsenal documentation site built with MkDo
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-org/kupia-audit-arsenal.git
+   git clone https://github.com/KupiaSec/kupia-audit-arsenal.git
    cd kupia-audit-arsenal
    ```
 
